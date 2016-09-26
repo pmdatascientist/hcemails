@@ -1,3 +1,9 @@
-This is the Hillary Clinton's Email Sentiment Analysis Machine Learning project
+Hillary Clinton’s Email Sentiment Analysis
+--------------------------------------------------------------------
+The Purpose of this Sentiment Analysis is to analyse Hillary Clinton’s Emails which are publically available by the Govt. of United States of America. Author of this page has a great respect for Mrs. Hillary Clinton and does not want to tarnish her image as a result of this publication in anyway.  If you are from the media and would like to have an update on Mrs. Hillary Clinton’s reply to the email controversy please look here. This Analysis in no way tries to communicate or interpret that Mrs. Clinton has negative sentiment. That is a wrong understanding if you interpret it that way. Yes what this analysis means is in her emails which Hillary Clinton received and which were made public to us, there was negative sentiment communicated to her. In fact her own responses to the majority of emails were very positive with words like “Wow”, “Amazing”, “please print”. This analysis covers both data what was sent to her and her responses to them as well. But when we did data munging using Hadoop we saw her response values are only 2% of the overall data. Hence it cannot be told that she is making negative sentiments. It is the outside world which is sending her negative sentiments.
+This analysis is being published only to demonstrate the capability of the Big Data Sentiment Engine built by our Data Scientist at Puneet Mathur. The Sentiment Engine built by us can be used for any kind of unstructured data. the Sentiment Engine has an inbuilt “Sentiment Trainer” which is used to make the engine learn rapidly about human sentiment.
+Dataset: Kaggle.com (Hillary Clinton’s Emails), Human Sentiment dictionary by Puneet Mathur. Total Dataset size was 15GB.
+Objective: To demonstrate the effective of the Sentiment Analysis Engine.
+Methodology: The methodology we applied in our engine is based on supervized machine learning. 
 
-Hadoop Pig and R have been used to carry out the Data Munging and Analysis.
+Big Data Technologies used: Hadoop 16 nodes cluster on Linux system. Supervised Machine Learning using R Language on Windows 10 Operating system and Pig on Linux, Hive and Mapreduce for Data Munging were used. Java for the Sentiment Trainer.
