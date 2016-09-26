@@ -1,0 +1,3 @@
+This is the Hillary Clinton's Email Sentiment Analysis Machine Learning project
+
+Hadoop Pig and R have been used to carry out the Data Munging and Analysis.
